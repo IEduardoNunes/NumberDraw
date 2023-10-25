@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width" user-scalable="1.0"/>
+  <title>Sorteio de Números</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <button id="button-sorteio">Clique aqui e tente acertar quais números irão aparecer<br/>Devem estar na mesma ordem!</button>
+  <div class="container">
+    <div class="container-label">
+      <h1 class="cassino-title">Digite os seus 3 números da sorte (entre 1 a 10):</h1>
+      <label class="cassino-label">
+        <input class="cassino-input" id="put1" type="number" min="1" max="10" placeholder="1 a 10">
+        <input class="cassino-input" id="put2" type="number" min="1" max="10" placeholder="1 a 10">
+        <input class="cassino-input" id="put3" type="number" min="1" max="10" placeholder="1 a 10">
+      </label>
+    </div>
+    <div class="container-label">
+      <h1 class="cassino-title bottom">Números sorteados pelo sistema:</h1>
+      <label class="cassino-label">
+        <div class="cassino-input" id="resul1"></div>
+        <div class="cassino-input" id="resul2"></div>
+        <div class="cassino-input" id="resul3"></div>
+      </label>
+    </div>
+    <span class="cassino-span winner">Você ganhou, meus parabéns!!</span>
+    <span class="cassino-span loser">Não foi dessa vez...</span>
+    <span class="cassino-span moreValues">Adicione todos os números</span>
+    <span class="cassino-span just1-10">Adicione valores entre 1 a 10 apenas.</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

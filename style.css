@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+}
+body {
+  background-color:#666;
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family: 'Poppins', sans-serif;
+}
+.container {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:30px 35px;
+  gap:15px;
+  border:1px solid gold;
+  border-radius:30px;
+}
+.cassino-label {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:10px;
+}
+.cassino-input {
+  border:1px solid gold;
+  border-radius:10px;
+  width:83.7px;
+  height:29.48px;
+  background-color:transparent;
+  font-size:15px;
+  font-weight: 400;
+  color:yellow;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  outline:none;
+}
+.cassino-input::placeholder {
+  color:#aaa;
+}
+.container-label {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.cassino-title {
+  color:gold;
+  font-size:19px;
+  font-weight:600;
+  margin:0;
+  margin-bottom:15px;
+  border-top:1px solid gold;
+  text-align:center;
+}
+.bottom {
+  margin-top:25px;
+}
+#button-sorteio {
+  margin-bottom:30px;
+  padding: 5px 10px;
+  font-size:19px;
+  font-weight:600;
+  background-color:transparent;
+  border: 1px solid gold;
+  border-radius:10px;
+  color:gold;
+  cursor:pointer;
+}
+.cassino-span {
+  text-align:center;
+  font-size:19px;
+  font-weight:600;
+  text-transform:uppercase;
+  display:none;
+  margin-top:25px;
+}
+.winner {
+  color:gold;
+}
+.loser {
+  color:#f70;
+}
+@media (max-width:426px) {
+  body {
+    padding:5px;
+  }
+  .container {
+    padding: 15px 20px;
+  }
+  .button-sorteio {
+    font-size:15px;
+  }
+  .cassino-title {
+    font-size:15px;
+  }
+  .cassino-span {
+    font-size:15px;
+  }
+}
+.moreValues {
+  color:#fff;
+  display:none;
+}
+.just1-10 {
+  color:#fff;
+  display:none;
+}
+
